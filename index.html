@@ -1,86 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>CycleK - Gestionale</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
+    <div class="logo">CycleK</div>
+</header>
 
-    <header>
-        CycleK
-    </header>
+<main>
+    <section class="hero">
+        <h1>Gestionale per pizzerie</h1>
+        <p>Rivoluziona e semplifica la gestione degli ordini, del menu e delle consegne.</p>
+    </section>
 
-    <main>
-        <h1>Gestionale</h1>
-        <p>La nostra Ambiziosa idea di rivoluzionare e semplificare la gestione degli ordini, del menu e delle consegne</p>
-        <br>
-
-        <div class="features">
+    <section id="features" class="features">
+        <div class="feature">
             <h2>Home Personalizzata</h2>
-            <div class="feature">
-                <img src="img/home.png" class="lightbox-trigger">
-                <p>
-                    Una Schermata Home semplice e intuitiva che ti permette di navigare velocemente tra i vari menu.    
-                </p>
-            </div>
+            <img src="img/home.png" class="lightbox-trigger">
+            <p>Una schermata semplice e intuitiva per navigare velocemente tra i menu.</p>
+        </div>
+        <div class="feature">
             <h2>Gestione Prenotazioni</h2>
-            <div class="feature">
-                <p>
-                    Gestisci comodamente le prenotazioni inserendo solo i dati necessari.
-                    <br>
-                    Tieni sempre sotto controllo gli orari disponibili e le informazioni necessarie a completare l'ordine.
-                    <br>
-                    E' possibile caricare le informazioni dei clienti abituali per velocizzare il processo di prenotazione.
-                    <br>
-                    E se un cliente ci ripensa e' sempre possibile caricare un ordine e modificarlo in un secondo momento.
-                </p>
-                <img src="img/order.png" class="lightbox-trigger">
-            </div>
+            <p>Gestisci le prenotazioni con facilità, controllando orari e informazioni utili.</p>
+            <img src="img/order.png" class="lightbox-trigger">
+        </div>
+        <div class="feature">
             <h2>Gestione Menu</h2>
-            <div class="feature">
-                <img src="img/menu.png" class="lightbox-trigger">
-                <p>
-                    E' possibile gestire il menu in modo semplice e veloce andando direttamente a modificare cio' che ti serve.    
-                </p>
-            </div>
-            <div class="feature">
-                <p>
-                    Inserire, modificare e cancellare i prodotti dal menu e' un gioco da ragazzi.    
-                </p>
-                <img src="img/pizze.png" class="lightbox-trigger">
-            </div>
+            <img src="img/menu.png" class="lightbox-trigger">
+            <p>Modifica velocemente i prodotti del menu con un'interfaccia intuitiva.</p>
+        </div>
+        <div class="feature">
             <h2>Storico Ordini</h2>
-            <div class="feature">
-                <img src="img/storico.png" class="lightbox-trigger">
-                <p>
-                    Lo storico ordini e' sempre a disposizione per tenere sotto controllo le vendite e i prodotti piu' richiesti.
-                    E' possibile caricare un ordine e modificarlo direttamente da qui.    
-                </p>
-            </div>
+            <p>Visualizza e gestisci lo storico ordini per monitorare le vendite.</p>
+            <img src="img/storico.png" class="lightbox-trigger">
         </div>
-    </main>
+    </section>
+</main>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="contacts">
-                <h3>Contact Us</h3>
-                 <a href="mailto:cyclek@gmail.com">cyclekict@gmail.com</a>
-            </div>
-        </div>
-        <div class="copyright">
-            <p>&copy; 2025 CycleK. All Rights Reserved.</p>
-        </div>
-        </div>
-    </footer>
-
-    <div id="lightbox" class="lightbox">
-        <span class="close-btn">&times;</span>
-        <img id="lightbox-image" src="" alt="Immagine ingrandita">
+<footer id="contact">
+    <div class="footer-content">
+        <h3>Contattaci</h3>
+        <a href="mailto:cyclekict@gmail.com"><i class="fas fa-envelope"></i> cyclekict@gmail.com</a>
     </div>
+    <p>&copy; 2025 CycleK. All Rights Reserved.</p>
+</footer>
 
-    <script src="script.js"></script>
+<div id="lightbox" class="lightbox">
+    <span class="close-btn">&times;</span>
+    <img id="lightbox-image" src="" alt="Immagine ingrandita">
+</div>
 
+<script src="script.js"></script>
 </body>
 </html>
